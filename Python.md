@@ -78,3 +78,17 @@ print(indexed_names_unpack)
 
 ```
 ```
+
+```
+# 2-D list
+nums2 = [[1,2,3], [4,5,6]]
+
+             Columns
+           [0] [1] [2]
+ Rows  [0]  3   1   4
+       [1]  1   5   9
+
+nums2 = [[1,2,3], [4,5,6]]
+nums2[0][1]
+2
+```
