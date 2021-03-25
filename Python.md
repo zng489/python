@@ -153,3 +153,8 @@ welcome_map = map(welcome_guest, guest_arrivals)
 guest_welcomes = [*welcome_map]
 print(*guest_welcomes, sep='\n')
 ```
+```
+list	list()	[]
+dictionary	dict()	{}
+tuple	tuple()	()
+```
