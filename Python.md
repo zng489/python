@@ -14,4 +14,15 @@ while i < len(names): # "len(names) 5 # while i < 5:"
 print(new_list)
 
 -> 'While' is a loopping process for every time, when you wanna repeat the code, modifying only the arguments. 
+![alt text](http://url/to/img.pn
+               _________
+              |        |
+              |        |
+              |        |
+              |        |
+            while      |
+              |        |
+              |        |
+              |________|
+
 ```
