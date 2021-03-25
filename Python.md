@@ -158,3 +158,4 @@ list	list()	[]
 dictionary	dict()	{}
 tuple	tuple()	()
 ```
+https://campus.datacamp.com/courses/writing-efficient-python-code/timing-and-profiling-code?ex=6
