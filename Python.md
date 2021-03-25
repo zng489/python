@@ -107,5 +107,31 @@ nums2_np[0,1]
 2
 ```
 
+
 ```
+nums = np.array([[1,2,3,4,5], [6,7,8,9,10]])
+
+nums
+array([[ 1,  2,  3,  4,  5],
+       [ 6,  7,  8,  9, 10]])
+       
+# Print second row of nums
+print(nums[1,:])
+[ 6  7 10  9 10]
+
+# Print all elements of nums that are greater than six
+print(nums[nums > 6])
+[ 7 10  9 10]
+
+# Double every element of nums
+nums_dbl = nums * 2
+print(nums_dbl)
+[[ 2  4  8  8 10]
+ [12 14 18 18 20]]
+ 
+# Replace the third column of nums
+nums[:,2] = nums[:,2] + 1
+print(nums)
+[[ 1  2  5  4  5]
+ [ 6  7 10  9 10]]
 ```
