@@ -26,3 +26,29 @@ print(new_list)
               |________|
 
 ```
+
+```
+```
+
+```
+nums = range(6)
+-> range is not a list range(0, 6)
+
+type(nums)
+<class 'range'>
+
+nums_list = list(nums)
+print(nums_list)
+[0, 1, 2, 3, 4, 5]
+
+nums_list2 = [range(1,12,2)]
+print(nums_list2)
+[range(1, 12, 2)]
+
+nums_list2 = [*range(1,12,2)]
+-> [*range(incial,end,steps)]
+print(nums_list2)
+[1, 3, 5, 7, 9, 11]
+
+
+```
