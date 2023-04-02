@@ -1,3 +1,10 @@
+=======================================================================================================
 !pip install --force-reinstall -v "openpyxl==3.1.0"
 AttributeError: 'ReadOnlyWorksheet' object has no attribute 'defined_names'
 https://levelup.gitconnected.com/fix-attributeerror-readonlyworksheet-object-41ff48b9a929
+
+=======================================================================================================
+Grupo_Destino['subGDestino2Param'] = Grupo_Destino['subGrupoDestino'] 
+
+
+=======================================================================================================
