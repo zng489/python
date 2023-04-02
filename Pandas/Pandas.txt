@@ -6,5 +6,8 @@ https://levelup.gitconnected.com/fix-attributeerror-readonlyworksheet-object-41f
 =======================================================================================================
 Grupo_Destino['subGDestino2Param'] = Grupo_Destino['subGrupoDestino'] 
 
+=======================================================================================================
+#rename specific column names
+df.rename(columns = {'team':'team_name', 'points':'points_scored'}, inplace = True)
 
 =======================================================================================================
