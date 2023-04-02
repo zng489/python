@@ -1,10 +1,16 @@
 # Tutorial for Dask
 
+===============================
 import dask.dataframe as dd
 storage_options = {'key': 'AKIATWV4QX5GHCJJKQV5', 'secret':'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'}
 df = dd.read_parquet('s3://bossa-nova-sss/zhang_test_0/run-1675002027067-part-block-0-r-00000-snappy.parquet', storage_options=storage_options)
 df.head()
 
-
-
+===============================
 dir(dd)
+
+===============================
+df = b[~b['id'].isin(a_)]
+df
+
+===============================
