@@ -11,3 +11,8 @@ Grupo_Destino['subGDestino2Param'] = Grupo_Destino['subGrupoDestino']
 df.rename(columns = {'team':'team_name', 'points':'points_scored'}, inplace = True)
 
 =======================================================================================================
+Grupo_Destino[Grupo_Destino[['parametro1']].notnull().all(1)]
+Grupo_Destino[Grupo_Destino[['parametro2']].notnull().all(1)]
+
+=======================================================================================================
+Grupo_Destino['parametro2'] = Grupo_Destino['parametro2'].astype(str).replace(' ', '_', regex=True)
