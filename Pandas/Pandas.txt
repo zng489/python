@@ -16,3 +16,13 @@ Grupo_Destino[Grupo_Destino[['parametro2']].notnull().all(1)]
 
 =======================================================================================================
 Grupo_Destino['parametro2'] = Grupo_Destino['parametro2'].astype(str).replace(' ', '_', regex=True)
+
+=======================================================================================================
+def grup_dest(row):
+    if row != None:
+        return row
+    else:
+        return 'n/a' 
+    
+Grupo_Destino['url_group'] = Grupo_Destino['parametro1'].apply(grup_dest)
+=======================================================================================================
