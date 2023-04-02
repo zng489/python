@@ -26,6 +26,9 @@ def grup_dest(row):
     
 Grupo_Destino['url_group'] = Grupo_Destino['parametro1'].apply(grup_dest)
 =======================================================================================================
+#https://www.educba.com/python-pandas-join/
+
+
 x = 'http://www.bnsir.com.br/nossos'
 x.split('/')[2]
 
