@@ -26,3 +26,16 @@ def grup_dest(row):
     
 Grupo_Destino['url_group'] = Grupo_Destino['parametro1'].apply(grup_dest)
 =======================================================================================================
+x = 'http://www.bnsir.com.br/nossos'
+x.split('/')[2]
+
+
+def spl(row):
+    return row.split('/')
+
+df['url_id'] = df['url']
+df['url_cd'] = df['url']
+
+df['url_dominio'] = df['url'].apply(spl)
+
+df['url_dominio'] = df['url_dominio'].str[2]
