@@ -39,3 +39,6 @@ df['url_cd'] = df['url']
 df['url_dominio'] = df['url'].apply(spl)
 
 df['url_dominio'] = df['url_dominio'].str[2]
+
+=======================================================================================================
+df = pd.merge(Grupo_Destino, df, how='outer', on=None, left_on='dominio', right_on="url_dominio", left_index=False, right_index=False, sort=True)
