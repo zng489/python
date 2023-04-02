@@ -46,3 +46,7 @@ df = pd.merge(Grupo_Destino, df, how='outer', on=None, left_on='dominio', right_
 
 
 r[r.dominio == "bnsir.com.br"]
+
+
+
+DataFrame.join(self, other, on=None, how='left', lsuffix='', rsuffix='', sort=False)
