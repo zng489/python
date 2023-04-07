@@ -21,3 +21,6 @@ from dask.dataframe import from_pandas
 df = from_pandas(DF, npartitions=1)
 
 ==============================================================
+# Selecting Partition
+
+mktemails.partitions[:3] 
